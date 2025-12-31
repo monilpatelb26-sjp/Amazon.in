@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: azure;
+}
+
+.navbar {
+    background-color:black;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: beige;
+    font-size: medium;
+    
+    
+}
+
+.search{
+    height: 2rem;
+    border-radius: 0.75rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productall {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(60, 57, 57, 0.877);
+    color: white;
+    height: 40px;
+}
